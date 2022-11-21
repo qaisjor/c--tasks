@@ -10,8 +10,42 @@ namespace task4
     {
         static void Main(string[] args)
         {
-            // task 4
+            task5 t = new task5();
+            t.print();
+            //task 1
+            Console.WriteLine("-----------------------task 1----------------------------");
+            Console.WriteLine("Enter any string : ");
+            String str = Console.ReadLine();
+            Console.WriteLine(str);
 
+            //task 2 
+            Console.WriteLine("-------------------task 2-------------------");
+            double number = 12.4;
+            string name = "qais darabseh";
+            char character = 'a';
+            bool boolean = true;
+            int integer = 12;
+            const double by = 3.14;
+
+            
+            Console.WriteLine("double data type: " + number);
+            Console.WriteLine("string data type : " + name);
+            Console.WriteLine("char data type : " + character);
+            Console.WriteLine("boolean data type : " + boolean);
+            Console.WriteLine("integer data type : " + integer);
+            Console.WriteLine("constant : " + by);
+
+            //task 3
+            Console.WriteLine("--------------------------task 3-------------------");
+            string[] cars = { "BMW", "marsadese", "volvo" };
+
+            Console.WriteLine(cars[0]);
+            Console.WriteLine(cars[1]);
+            Console.WriteLine(cars[2]);
+            Console.WriteLine("lenfth is : " + cars.Length);
+
+            // task 4
+            Console.WriteLine("-----------------------task 4----------------------");
             Console.WriteLine("Enter your first name : ");
             string fName = Console.ReadLine();
 
@@ -27,6 +61,7 @@ namespace task4
 
             //task 5
 
+            Console.WriteLine("-------------------------task 5--------------------------");
             string[] numbers = new string[10] ;
 
             for (int i = 0; i<numbers.Length; i++) {
@@ -39,22 +74,17 @@ namespace task4
                 Console.Write( numbers[i] + " ");
                 
             }
-
-            Console.ReadLine();
-
-
             //task 6
 
-            int[] nums = { 1, 2, 3, 4, 5, 6, 7, 8 };
+            Console.WriteLine("--------------------------task 6---------------------------");
+            int[] nums = { 1, 2, 3};
             int sum = 0;
-            for (int i = 0; i < nums.Length; i++)
-            {
-                sum += nums[i];
-                
-            }
+            sum = nums[0] + nums[1] + nums[2];
 
             Console.WriteLine("the numation is : " + sum);
 
+
+            
         }
     }
 }

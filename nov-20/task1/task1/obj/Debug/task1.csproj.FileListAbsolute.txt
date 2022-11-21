@@ -6,3 +6,11 @@ C:\Users\Dell\OneDrive\Desktop\c# tasks\c-tasks\task1\task1\obj\Debug\task1.cspr
 C:\Users\Dell\OneDrive\Desktop\c# tasks\c-tasks\task1\task1\obj\Debug\task1.csproj.CoreCompileInputs.cache
 C:\Users\Dell\OneDrive\Desktop\c# tasks\c-tasks\task1\task1\obj\Debug\task1.exe
 C:\Users\Dell\OneDrive\Desktop\c# tasks\c-tasks\task1\task1\obj\Debug\task1.pdb
+C:\Users\Dell\OneDrive\Desktop\c# tasks\c-tasks\nov-20\task1\task1\bin\Debug\task1.exe.config
+C:\Users\Dell\OneDrive\Desktop\c# tasks\c-tasks\nov-20\task1\task1\bin\Debug\task1.exe
+C:\Users\Dell\OneDrive\Desktop\c# tasks\c-tasks\nov-20\task1\task1\bin\Debug\task1.pdb
+C:\Users\Dell\OneDrive\Desktop\c# tasks\c-tasks\nov-20\task1\task1\obj\Debug\task1.csproj.AssemblyReference.cache
+C:\Users\Dell\OneDrive\Desktop\c# tasks\c-tasks\nov-20\task1\task1\obj\Debug\task1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dell\OneDrive\Desktop\c# tasks\c-tasks\nov-20\task1\task1\obj\Debug\task1.csproj.CoreCompileInputs.cache
+C:\Users\Dell\OneDrive\Desktop\c# tasks\c-tasks\nov-20\task1\task1\obj\Debug\task1.exe
+C:\Users\Dell\OneDrive\Desktop\c# tasks\c-tasks\nov-20\task1\task1\obj\Debug\task1.pdb

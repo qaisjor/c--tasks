@@ -26,7 +26,7 @@ namespace task2
             Console.WriteLine("integer data type : "  + integer);
             Console.WriteLine("constant : "+ by );
 
-            Console.ReadLine();
+            
         }
     }
 }
