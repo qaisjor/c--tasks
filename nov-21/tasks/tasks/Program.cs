@@ -110,13 +110,23 @@ namespace tasks
 
 
             //task 8
+
             Console.WriteLine("task 8");
-            string[] sentinces = { "sdfasdf", "sdfasdssdbasdbf", "sdfasdf", "sdfasGASRGAERHHdf", "sdfasdfsergE" };
+            string[] sentinces = {
+                "Lorem ipsum dolor sit amet",
+                "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet",
+                "Lorem ipsum dolor sit amet Lorem ",
+                "Lorem ipsum dolor sit amet ",
+                "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet" };
 
-            for (int i = 0; i < sentinces.Length; i++) {
+            
 
-                Console.WriteLine($"sentince {i+1} length is {sentinces[i].Length}");
-            }
+            Console.WriteLine($"sentince 1 {sentinces[0].Substring(0,10)}");
+            Console.WriteLine($"sentince 2  {sentinces[1].Substring(0, 10)}");
+            Console.WriteLine($"sentince 3  {sentinces[2].Substring(0, 10)}");
+            Console.WriteLine($"sentince 4 {sentinces[3].Substring(0, 10)}");
+            Console.WriteLine($"sentince 5  {sentinces[4].Substring(0, 10)}");
+
 
 
         }
