@@ -12,7 +12,9 @@ namespace tasks
         static void Main(string[] args)
         {
             //task 1 
+            Console.WriteLine();
             Console.WriteLine("task 1");
+            Console.WriteLine();
             int n1 = 10;
             int n2 = 20;
 
@@ -21,13 +23,16 @@ namespace tasks
 
 
             //task 2 
+            Console.WriteLine();
             Console.WriteLine("task 2");
+            Console.WriteLine();
             int number = -4;
             char sign =  (number < 0) ?'-' : '+';
-
+            Console.WriteLine("the sign is : " + sign);
             //task 3
+            Console.WriteLine();
             Console.WriteLine("task 3");
-
+            Console.WriteLine();
             int a=-4 , b=-3 , c = -2;
 
             if (a < b && b < c)
@@ -57,7 +62,9 @@ namespace tasks
 
 
             //task 4
+            Console.WriteLine();
             Console.WriteLine("task 4");
+            Console.WriteLine();
             int num1 = 2, num2 = 3, num3 = 5, num4 = -3, num5 = 10;
 
             if (num1 > num2 && num1 > num3 && num1 > num4 && num1 > num5)
@@ -82,6 +89,7 @@ namespace tasks
 
 
             //task 5
+            Console.WriteLine();
             Console.WriteLine("task 5");
             Console.WriteLine("Enter distance in KM");
             double km = Convert.ToDouble(Console.ReadLine()) ;
@@ -90,13 +98,14 @@ namespace tasks
 
 
             //task 6
+            Console.WriteLine();
             Console.WriteLine("task 6");
             Console.WriteLine("input houres : ");
             int h = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("input minutes : ");
             int m = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Total :"+ (h*60) + m +"minutes");
+            Console.WriteLine("Total :"+ ((h*60) + m) +"minutes");
 
 
             //task 7

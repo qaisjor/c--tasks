@@ -11,7 +11,8 @@ namespace tasks
     {
         static void Main(string[] args)
         {
-            //task 1 
+            //task 1
+            
             int[] ARR = { 1, 7, 9, 45 };
             string[] arr2 = { "Str", "alex", "moh" };
             string[] arr3 = { "the", "fox", "over", "lazy", "dog" };
@@ -22,12 +23,13 @@ namespace tasks
             //Banana = 1
             //Tomato = 0
 
-
+            Console.WriteLine("-----------task3------------------");
             //task 3
-            string[] food= { "kabsa", "mansaf", "magloba", "sea food", "barbique" };
+            string[] food = { "kabsa", "mansaf", "magloba", "sea food", "barbique" };
             string[] sports = { "soccer", "table tennis", "swimming" };
             string[] movies = { "the green mile", "mad max", "inttersteller" };
-            foreach (string f in food) {
+            foreach (string f in food)
+            {
                 Console.Write(f + " ");
             }
             Console.WriteLine();
@@ -46,11 +48,12 @@ namespace tasks
             Console.WriteLine("Enter three numbers seperated by comma ");
             string numbers = Console.ReadLine();
 
-            string [] nums = numbers.Split(',');
+            string[] nums = numbers.Split(',');
 
             int sum = 0;
 
-            foreach (string n in nums) {
+            foreach (string n in nums)
+            {
                 sum += Convert.ToInt32(n);
             }
 
@@ -64,7 +67,8 @@ namespace tasks
 
             for (int i = 1; i <= 100; i++)
             {
-                if (i % 2 == 1) {
+                if (i % 2 == 1)
+                {
                     sumation += i;
                 }
             }
@@ -75,13 +79,15 @@ namespace tasks
 
             //task 6 
             Console.WriteLine("-----------task6 ----------------");
-            int a = 3; 
-            for (int i = 1; i <= 4; i++) {
-                for (int j = a; j >= 1; j--) {
+            int a = 3;
+            for (int i = 1; i <= 4; i++)
+            {
+                for (int j = a; j >= 1; j--)
+                {
                     Console.Write(" ");
-                    
+
                 }
-                for (int k = 1; k<=i;k++)
+                for (int k = 1; k <= i; k++)
                 {
                     Console.Write("* ");
                 }
@@ -109,11 +115,36 @@ namespace tasks
                 Console.WriteLine();
                 s--;
             }
+
+            //task 8
+
+            //int[] numms = { 1, 1, 8, 8, 3, 5, 34, 34, 45, 5, 5 };
+
+            //int[] newnums = new int[numms.Length];
+
+            //newnums[0] = 1;
+            //Console.WriteLine(newnums[0]);
+
+
+
+            //for (int i = 0; i < numms.Length; i++)
+            //{
+
+            //    int correntNumber = numms[i];
+
+            //    for (int j = )
+
+            //}
+
+
+
+
+
         }
 
 
-        
 
-       
+
+
     }
 }
