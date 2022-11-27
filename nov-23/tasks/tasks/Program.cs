@@ -16,7 +16,7 @@ namespace tasks
             //calcSumAndAVG(numbers);
 
             //task 2 
-            //cube(2);
+            cube(2);
 
             ////task 3
             //int[] years = { 1959, 1940, 1990, 2034, 1930, 1980 };
@@ -38,20 +38,20 @@ namespace tasks
 
 
             //task 7 
-            //Console.WriteLine(pow(3));
+            Console.WriteLine(pow(3));
 
 
             //task 8 
-            //getLeapYears();
+            getLeapYears();
 
             //task 9 
-            //isPrime(4);
+            isPrime(9);
 
             // task 10 
-            // getNumberOfWord("Create function that accept a sentence, and return the number of words");
+             getNumberOfWord("Create function that accept a sentence, and return the number of words");
 
 
-            //Console.WriteLine((login("qais@gmail.com", "123456")) ? "pass" : "fail" );
+            Console.WriteLine((login("qais@gmail.com", "123456")) ? "pass" : "fail" );
 
 
         }
@@ -71,7 +71,7 @@ namespace tasks
         }
         //////////////////////////////////////////////////////////////////
         static void cube(int number) {
-            Console.WriteLine ( $"the number is {number} and cube of {number} is :"+Math.Pow(number, 3));  
+            Console.WriteLine ( $"the number is {number} and cube of {number} is :"+number*number*number);  
         }
 
         //////////////////////////////////////////////////////////////////
@@ -131,6 +131,7 @@ namespace tasks
                     Console.Write(i + " ");
                 }
             }
+            Console.WriteLine();
         }
         /////////////////////////////////////////////////////////////////////
         static void isPrime(int number) {
