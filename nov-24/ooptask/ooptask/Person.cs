@@ -16,7 +16,7 @@ namespace ooptask
         public string phoneNumber = "no number";
         public Person(int age, string gender, string name, string email, int id, string phoneNumber)
         {
-            if (age < 18 && age > 60)
+            if (age < 18 || age > 60)
             {
                 Console.WriteLine("Enter age between 18 - 60");
 

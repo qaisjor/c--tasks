@@ -1,0 +1,8 @@
+C:\Users\Dell\OneDrive\Desktop\c# tasks\c-tasks\nov-25\ooptask\ooptask\bin\Debug\ooptask.exe.config
+C:\Users\Dell\OneDrive\Desktop\c# tasks\c-tasks\nov-25\ooptask\ooptask\bin\Debug\ooptask.exe
+C:\Users\Dell\OneDrive\Desktop\c# tasks\c-tasks\nov-25\ooptask\ooptask\bin\Debug\ooptask.pdb
+C:\Users\Dell\OneDrive\Desktop\c# tasks\c-tasks\nov-25\ooptask\ooptask\obj\Debug\ooptask.csproj.AssemblyReference.cache
+C:\Users\Dell\OneDrive\Desktop\c# tasks\c-tasks\nov-25\ooptask\ooptask\obj\Debug\ooptask.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dell\OneDrive\Desktop\c# tasks\c-tasks\nov-25\ooptask\ooptask\obj\Debug\ooptask.csproj.CoreCompileInputs.cache
+C:\Users\Dell\OneDrive\Desktop\c# tasks\c-tasks\nov-25\ooptask\ooptask\obj\Debug\ooptask.exe
+C:\Users\Dell\OneDrive\Desktop\c# tasks\c-tasks\nov-25\ooptask\ooptask\obj\Debug\ooptask.pdb

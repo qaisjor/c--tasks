@@ -12,10 +12,10 @@ namespace ooptask
         static void Main(string[] args)
         {
             //int age, string gender, string name, string email, int id, string phoneNumber
-            Person p = new Person(12,"male" , "ahmad" , "ahmad@gmail.com" , 12 , "07112345678");
+            Person p = new Person(12,"male" , "ahmad" , "ahmad@gmail.com" , 12 , "07812345678");
 
-            Console.WriteLine(p.age);
-            Console.WriteLine(p.phoneNumber);
+            //Console.WriteLine(p.age);
+            //Console.WriteLine(p.phoneNumber);
         }
     }
 }
